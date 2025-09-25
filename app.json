@@ -1,0 +1,82 @@
+{
+  "expo": {
+    "name": "Swif-AI",
+    "slug": "swift-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/img/Logo.png",
+    "scheme": "swiftai",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/img/Logo.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain",
+      "fullScreen": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.swiftai.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/img/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.swiftai.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./src/assets/img/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./src/assets/fonts/Poppins-Bold.ttf",
+            "./src/assets/fonts/Poppins-Regular.ttf",
+            "./src/assets/fonts/Poppins-Medium.ttf",
+            "./src/assets/fonts/Poppins-Light.ttf"
+          ]
+        }
+      ],
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./src/assets/img/Logo.png",
+          "backgroundColor": "#000000",
+          "resizeMode": "contain"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends.",
+          "cameraPermission": "The app accesses your camera to take photos."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

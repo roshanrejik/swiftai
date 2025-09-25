@@ -1,0 +1,27 @@
+export enum Screens {
+  AuthNavigation = "(auth)",
+  TabNavigation = "(Tabs)",
+  MainNavigation = "(MainStack)",
+  EditProfile = "editProfile",
+  ChangePassword = "changePassword",
+  Signin = "signin",
+  Signup = "signup",
+  Onboarding = "onBoarding",
+  ForgetPassword = "forgetPassword",
+  VerifyOtp = "verifyOtp",
+  ResetPassword = "resetPassword",
+  Search = "search",
+  Detail = "details/index",
+  Blog = "blog/index",
+  Home = "index",
+  Settings = "settings",
+  Profile = "profile",
+  UserGuide = "userGuide",
+  WelcomeScreen = "welcomeScreen",
+  HowToUse = "HowToUse",
+
+  PrivacyPolicy="privacyPolicy",
+  ChatsHistory = "chatsHistory",
+  HistoryDetail = "historyDetail",
+
+}

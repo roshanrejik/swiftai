@@ -1,0 +1,23 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "app/(mainstack)/blog/[id].tsx",
+    "app/(mainstack)/blog/index.jtsx",
+    "app/(auth)/index.tsxdex.tsx",
+    "app/(auth)/signup/index.tsxx",
+    "app/(auth)/search/index.tsxx",
+    "app/_layout.tsx",
+    "app/(mainstack)/profile/profile.jss",
+    "app/(mainstack)/Home/new.jss"
+  ]
+}

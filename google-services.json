@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "515266230098",
+    "project_id": "swift-ai-2b7b3",
+    "storage_bucket": "swift-ai-2b7b3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515266230098:android:b0e8b17956c75dc9bb2c8b",
+        "android_client_info": {
+          "package_name": "com.swiftAI"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515266230098-3el9ksopd1pbv21ijln5mbr3kb675snn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swiftAI",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "515266230098-r4pj1b3q5g1js3b16g681bch88aoosir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUYYzhcgOnBtvJfnvSvHOdFEqAvfYlxXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515266230098-r4pj1b3q5g1js3b16g681bch88aoosir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
