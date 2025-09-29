@@ -9,12 +9,12 @@ const geminiApiClient = axios.create({
   // timeout: 30000, // Longer timeout for AI requests
   headers: {
     "Content-Type": "application/json",
-   
+
   },
 });
 
 // Your Gemini API key
-const API_KEY = "AIzaSyAZEJ4yoOYU6LEkv0M2fV1y_Ktxq7fPNM0"; // Replace with your actual API key
+const API_KEY = "AIzaSyBzBVOfZnaBJGpncgpj6xEZSMe-PDSGy0o"; // Replace with your actual API key
 
 // Function to generate text using Gemini
 export const generateText = async (prompt: string, conversationId: string | null, options: {} = {}) => {
@@ -36,7 +36,7 @@ export const generateText = async (prompt: string, conversationId: string | null
     console.log("Raw API Response:", response.data);
     console.log("Response data.data:", response.data?.data);
     console.log("Response data:", response.data);
-    
+
     // Try different response structures
     if (response.data?.data) {
       console.log("Using response.data.data");
