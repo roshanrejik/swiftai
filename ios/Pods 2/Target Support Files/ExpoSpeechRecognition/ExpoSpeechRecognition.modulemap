@@ -1,0 +1,6 @@
+framework module ExpoSpeechRecognition {
+  umbrella header "ExpoSpeechRecognition-umbrella.h"
+
+  export *
+  module * { export * }
+}

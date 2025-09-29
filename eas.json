@@ -12,6 +12,10 @@
       "distribution": "internal"
     },
     "preview": {
+      "distribution": "internal",
+      "ios": {
+        "enterpriseProvisioning": "adhoc"
+      },
       "android": {
         "buildType": "apk"
       }
