@@ -28,7 +28,7 @@
         <key>CFBundleURLSchemes</key>
         <array>
           <string>swiftai</string>
-          <string>com.appsteam.c0c0n</string>
+          <string>com.oneteamus.TaskerTest</string>
         </array>
       </dict>
       <dict>
@@ -47,8 +47,6 @@
     <key>NSAppTransportSecurity</key>
     <dict>
       <key>NSAllowsArbitraryLoads</key>
-      <false/>
-      <key>NSAllowsLocalNetworking</key>
       <true/>
     </dict>
     <key>NSCameraUsageDescription</key>

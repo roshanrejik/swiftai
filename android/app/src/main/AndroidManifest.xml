@@ -27,7 +27,7 @@
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="swiftai"/>
-        <data android:scheme="com.appsteam.c0c0n"/>
+        <data android:scheme="com.oneteamus.TaskerTest"/>
         <data android:scheme="exp+swift-ai"/>
       </intent-filter>
     </activity>

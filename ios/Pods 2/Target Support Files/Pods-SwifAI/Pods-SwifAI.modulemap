@@ -1,6 +1,0 @@
-framework module Pods_SwifAI {
-  umbrella header "Pods-SwifAI-umbrella.h"
-
-  export *
-  module * { export * }
-}
