@@ -86,9 +86,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.oneteamus.TaskerTest'
+    namespace 'com.swiftai.app'
     defaultConfig {
-        applicationId 'com.oneteamus.TaskerTest'
+        applicationId 'com.swiftai.app'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

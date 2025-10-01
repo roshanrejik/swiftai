@@ -1,4 +1,4 @@
-package com.oneteamus.TaskerTest
+package com.swiftai.app
 
 import android.app.Application
 import android.content.res.Configuration

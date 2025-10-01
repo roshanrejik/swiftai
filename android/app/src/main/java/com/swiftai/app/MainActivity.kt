@@ -1,4 +1,4 @@
-package com.oneteamus.TaskerTest
+package com.swiftai.app
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build
