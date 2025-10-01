@@ -17,7 +17,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.oneteamus.TaskerTest",
+      "bundleIdentifier": "com.swiftai.app",
       "infoPlist": {
         "NSAppTransportSecurity": {
           "NSAllowsArbitraryLoads": true
@@ -34,7 +34,7 @@
         "foregroundImage": "./src/assets/img/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.oneteamus.TaskerTest"
+      "package": "com.swiftai.app"
     },
     "web": {
       "bundler": "metro",
