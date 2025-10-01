@@ -18,19 +18,15 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.oneteamus.TaskerTest",
-      "ios": {
-        "supportsTablet": true,
-        "bundleIdentifier": "com.oneteamus.TaskerTest",
-        "infoPlist": {
-          "NSAppTransportSecurity": {
-            "NSAllowsArbitraryLoads": true
-          },
-          "NSSpeechRecognitionUsageDescription": "This app uses speech recognition to convert your voice to text for creating tasks and notes.",
-          "NSMicrophoneUsageDescription": "This app needs access to your microphone to record audio for voice commands and notes.",
-          "NSCameraUsageDescription": "This app accesses your camera to take photos for your tasks and notes.",
-          "NSPhotoLibraryUsageDescription": "This app accesses your photos to let you attach them to your tasks.",
-          "NSPhotoLibraryAddUsageDescription": "This app needs to save photos to your library."
-        }
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        },
+        "NSSpeechRecognitionUsageDescription": "This app uses speech recognition to convert your voice to text for creating tasks and notes.",
+        "NSMicrophoneUsageDescription": "This app needs access to your microphone to record audio for voice commands and notes.",
+        "NSCameraUsageDescription": "This app accesses your camera to take photos for your tasks and notes.",
+        "NSPhotoLibraryUsageDescription": "This app accesses your photos to let you attach them to your tasks.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs to save photos to your library."
       }
     },
     "android": {
