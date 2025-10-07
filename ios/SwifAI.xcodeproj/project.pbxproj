@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09A858184D1E4DCFABF94E5E /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF34B86724294C339AF5719F /* Poppins-Medium.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		317683A26B5F45D8848591F3 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D31D127B8F42C18981F86D /* noop-file.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		426654B57BA44BB294A5D1EB /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CB9B8981CE94026837D871D /* Poppins-Bold.ttf */; };
-		5CB6299C6C8756EFF35B7A00 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 988E83BF7C7F3956FDE6EA4A /* PrivacyInfo.xcprivacy */; };
-		7A7709FA20064698A097F8E9 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 409B33BFE40347428756AFA7 /* Poppins-Regular.ttf */; };
-		B10A07D06C9A0FFC165193E1 /* Pods_SwifAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9A4040918A999700C82BC6 /* Pods_SwifAI.framework */; };
+		73F66B47723841C9B54407A2 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5131828882C43A693CAA055 /* noop-file.swift */; };
+		A1D480BF5D0B444181952A5D /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7C3D9E62C04A8B93DA4D9F /* Poppins-Regular.ttf */; };
+		A60BEADC1CB04D0AB75E0B34 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82E7AC0D4CF54CB4AEB868DF /* Poppins-Light.ttf */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		D5B0CC0DD17C42CE95B6983B /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDB6FFFC437B4287B7270250 /* Poppins-Light.ttf */; };
+		C480F7F64E3A22803993059E /* Pods_SwifAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6DB9C36786D0FBA228AA08 /* Pods_SwifAI.framework */; };
+		C5587392E0D147B48BD33EE3 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE49A89FFD774C2F89F4DAF9 /* Poppins-Medium.ttf */; };
+		E316D56F8B874D03941193DA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D55D0D041B44786A5262273 /* Poppins-Bold.ttf */; };
+		F100815D1D3DFA9D006F6C29 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 546268A2A1303DDF7D7F5108 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,20 +29,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SwifAI/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwifAI/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SwifAI/main.m; sourceTree = "<group>"; };
-		30D31D127B8F42C18981F86D /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "SwifAI/noop-file.swift"; sourceTree = "<group>"; };
-		409B33BFE40347428756AFA7 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		5BF643B9DB764440B79E74D6 /* SwifAI-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "SwifAI-Bridging-Header.h"; path = "SwifAI/SwifAI-Bridging-Header.h"; sourceTree = "<group>"; };
+		546268A2A1303DDF7D7F5108 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = SwifAI/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-SwifAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifAI.debug.xcconfig"; path = "Target Support Files/Pods-SwifAI/Pods-SwifAI.debug.xcconfig"; sourceTree = "<group>"; };
-		6CB9B8981CE94026837D871D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		6E6DB9C36786D0FBA228AA08 /* Pods_SwifAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		709937DB4A91407DA165DE16 /* SwifAI-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "SwifAI-Bridging-Header.h"; path = "SwifAI/SwifAI-Bridging-Header.h"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-SwifAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifAI.release.xcconfig"; path = "Target Support Files/Pods-SwifAI/Pods-SwifAI.release.xcconfig"; sourceTree = "<group>"; };
-		988E83BF7C7F3956FDE6EA4A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = SwifAI/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		9F9A4040918A999700C82BC6 /* Pods_SwifAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7C3D9E62C04A8B93DA4D9F /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		82E7AC0D4CF54CB4AEB868DF /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		9D55D0D041B44786A5262273 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = SwifAI/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		BDB6FFFC437B4287B7270250 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
-		BF34B86724294C339AF5719F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		D5131828882C43A693CAA055 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "SwifAI/noop-file.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-SwifAI/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		FE49A89FFD774C2F89F4DAF9 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B10A07D06C9A0FFC165193E1 /* Pods_SwifAI.framework in Frameworks */,
+				C480F7F64E3A22803993059E /* Pods_SwifAI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,9 +67,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				30D31D127B8F42C18981F86D /* noop-file.swift */,
-				5BF643B9DB764440B79E74D6 /* SwifAI-Bridging-Header.h */,
-				988E83BF7C7F3956FDE6EA4A /* PrivacyInfo.xcprivacy */,
+				546268A2A1303DDF7D7F5108 /* PrivacyInfo.xcprivacy */,
+				D5131828882C43A693CAA055 /* noop-file.swift */,
+				709937DB4A91407DA165DE16 /* SwifAI-Bridging-Header.h */,
 			);
 			name = SwifAI;
 			sourceTree = "<group>";
@@ -78,9 +78,21 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9F9A4040918A999700C82BC6 /* Pods_SwifAI.framework */,
+				6E6DB9C36786D0FBA228AA08 /* Pods_SwifAI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38F1B173E1FC414687FC4CA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D55D0D041B44786A5262273 /* Poppins-Bold.ttf */,
+				7B7C3D9E62C04A8B93DA4D9F /* Poppins-Regular.ttf */,
+				FE49A89FFD774C2F89F4DAF9 /* Poppins-Medium.ttf */,
+				82E7AC0D4CF54CB4AEB868DF /* Poppins-Light.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -99,7 +111,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
-				9C98E62A6CC24EC0B7686A6D /* Resources */,
+				38F1B173E1FC414687FC4CA2 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -120,18 +132,6 @@
 				FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */,
 			);
 			name = SwifAI;
-			sourceTree = "<group>";
-		};
-		9C98E62A6CC24EC0B7686A6D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6CB9B8981CE94026837D871D /* Poppins-Bold.ttf */,
-				409B33BFE40347428756AFA7 /* Poppins-Regular.ttf */,
-				BF34B86724294C339AF5719F /* Poppins-Medium.ttf */,
-				BDB6FFFC437B4287B7270250 /* Poppins-Light.ttf */,
-			);
-			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -168,13 +168,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SwifAI" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				44E8D99515CBF2EBC1476662 /* [Expo] Configure project */,
+				57D3BE04AD53A8E71FA04197 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				6EAF4F8FCFEC17365DCC0942 /* [CP] Embed Pods Frameworks */,
+				40F5D0D6748027E0A746B1C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +195,8 @@
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1250;
+						DevelopmentTeam = "RN6LSJH22J";
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -224,11 +226,11 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				426654B57BA44BB294A5D1EB /* Poppins-Bold.ttf in Resources */,
-				7A7709FA20064698A097F8E9 /* Poppins-Regular.ttf in Resources */,
-				09A858184D1E4DCFABF94E5E /* Poppins-Medium.ttf in Resources */,
-				D5B0CC0DD17C42CE95B6983B /* Poppins-Light.ttf in Resources */,
-				5CB6299C6C8756EFF35B7A00 /* PrivacyInfo.xcprivacy in Resources */,
+				E316D56F8B874D03941193DA /* Poppins-Bold.ttf in Resources */,
+				A1D480BF5D0B444181952A5D /* Poppins-Regular.ttf in Resources */,
+				C5587392E0D147B48BD33EE3 /* Poppins-Medium.ttf in Resources */,
+				A60BEADC1CB04D0AB75E0B34 /* Poppins-Light.ttf in Resources */,
+				F100815D1D3DFA9D006F6C29 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +274,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		44E8D99515CBF2EBC1476662 /* [Expo] Configure project */ = {
+		40F5D0D6748027E0A746B1C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwifAI/Pods-SwifAI-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwifAI/Pods-SwifAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57D3BE04AD53A8E71FA04197 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -291,24 +311,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-SwifAI/expo-configure-project.sh\"\n";
 		};
-		6EAF4F8FCFEC17365DCC0942 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwifAI/Pods-SwifAI-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwifAI/Pods-SwifAI-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,10 +318,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwifAI/Pods-SwifAI-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth/AppAuthCore_Privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoSystemUI/ExpoSystemUI_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth/GTMAppAuth_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher_Core_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleSignIn/GoogleSignIn.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises_Privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly/RCT-Folly_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage/RNCAsyncStorage_resources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React-Core_privacy.bundle",
@@ -332,10 +340,16 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppAuthCore_Privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoConstants_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoFileSystem_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoSystemUI_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMAppAuth_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMSessionFetcher_Core_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleUtilities_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FBLPromises_Privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCT-Folly_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RNCAsyncStorage_resources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-Core_privacy.bundle",
@@ -361,7 +375,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				317683A26B5F45D8848591F3 /* noop-file.swift in Sources */,
+				73F66B47723841C9B54407A2 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +412,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
+				DEVELOPMENT_TEAM = "RN6LSJH22J";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 			};
 			name = Debug;
 		};
@@ -425,6 +442,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
+				DEVELOPMENT_TEAM = "RN6LSJH22J";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 			};
 			name = Release;
 		};

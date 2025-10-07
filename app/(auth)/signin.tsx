@@ -15,7 +15,7 @@ import React, { useEffect, useState } from "react";
 import { Platform, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { moderateScale, scale, verticalScale } from "react-native-size-matters";
 import { Toast } from "toastify-react-native";
-import { appleAuth } from '@invertase/react-native-apple-authentication';
+import * as AppleAuthentication from "expo-apple-authentication";
 import { useConverstationStore } from "@/src/store/chat";
 import { useAppStore } from "@/src/store/auth/appstore";
 
@@ -71,70 +71,83 @@ export default function SignIn() {
   };
 
   async function handleAppleLogin() {
-
     try {
-      const appleAuthRequestResponse = await appleAuth.performRequest({
-        requestedOperation: appleAuth.Operation.LOGIN,
-        requestedScopes: [appleAuth.Scope.EMAIL, appleAuth.Scope.FULL_NAME],
+      const credential = await AppleAuthentication.signInAsync({
+        requestedScopes: [
+          AppleAuthentication.AppleAuthenticationScope.FULL_NAME,
+          AppleAuthentication.AppleAuthenticationScope.EMAIL,
+        ],
       });
 
-      const { user, identityToken, fullName, email } = appleAuthRequestResponse;
+      const { user, email, fullName, identityToken } = credential;
+
+      if (!identityToken) {
+        Toast.error("Apple Sign-In failed: No token returned");
+        return;
+      }
 
       const body = {
         socialId: user,
-        platform: "ios",
-        email: email,
+        platform: Platform.OS,
+        email: email ?? "",
         fullName:
           fullName?.givenName || fullName?.familyName
             ? `${fullName?.givenName ?? ""} ${fullName?.familyName ?? ""}`.trim()
-            : null,
+            : "Apple User",
         socialToken: identityToken,
         fcmToken: null,
         socialPlatform: "apple",
       };
 
-      console.log(body, 'body');
+      console.log("🍎 Apple login body:", body);
+      await socialLogin(body);
 
-      const loginResponse = await socialLogin(body)
-      console.log(loginResponse, 'loginResponse');
-      if (loginResponse?.status === 200) {
-        Toast.success("Login successfully!");
-        router.dismissTo("/(mainstack)");
+      Toast.success("Login successful!");
+      router.replace("/(mainstack)");
+    } catch (error: any) {
+      if (error.code === "ERR_CANCELED") {
+        Toast.error("Apple login cancelled");
       } else {
-        Toast.error("Login failed. Please try again.");
+        console.error("Apple login error:", error);
+        Toast.error("Apple login failed. Check your Apple setup.");
       }
-      // Handle the response (e.g., authenticate the user with your server)
-    } catch (error) {
-      console.log(error);
     }
-    // performs login request
+  }
 
+
+
+  const handleGoogleLogin = async () => {
+    try {
+      const response = await googleSignin();
+
+      if (!response?.data?.user) {
+        Toast.error("Failed to get user data from Google");
+        return;
+      }
+
+      const body = {
+        socialId: response.data.user.id,
+        platform: Platform.OS === "ios" ? "ios" : "android",
+        email: response.data.user.email,
+        fullName: response.data.user.name,
+        socialToken: response.data.idToken,
+        fcmToken: null,
+        socialPlatform: "google",
+      };
+
+      console.log("Google login body:", body);
+
+      await socialLogin(body);
+
+      Toast.success("Login successful!");
+      router.replace("/(mainstack)");
+    } catch (error: any) {
+      console.error("Google login error:", error);
+      Toast.error(error?.message || "Login failed. Please try again.");
+    }
   };
 
-  // const handleGoogleLogin = async () => {
-  //   try {
-  //     const response = await googleSignin();
-  //     const body = {
-  //       socialId: response?.data?.user?.id,
-  //       platform: Platform.OS === "ios" ? "ios" : "android",
-  //       email: response?.data?.user?.email,
-  //       fullName: response?.data?.user?.name,
-  //       socialToken: response?.data?.idToken,
-  //       fcmToken: null,
-  //       socialPlatform: "google"
-  //     }
-  //     const loginResponse = await socialLogin(body);
-  //     if (loginResponse?.status === 200) {
-  //       Toast.success("Login successfully!");
-  //       router.dismissTo("/(mainstack)");
-  //     } else {
-  //       Toast.error("Login failed. Please try again.");
-  //     }
-  //     if (loginResponse?.data?.userStatus === Events.UNVERIFIED) {
-  //       handleSendOtp(response?.data?.user?.email);
-  //     }
-  //   } catch (e) { }
-  // };
+
 
   const redirectToForgetPassword = () => {
     router.push("/(auth)/forgetPassword");
@@ -234,7 +247,7 @@ export default function SignIn() {
       </View> */}
       <SocialButtons
         onApplePress={handleAppleLogin}
-      // onGooglePress={handleGoogleLogin}
+        onGooglePress={handleGoogleLogin}
       />
       <Text style={styles.orText}>OR</Text>
 

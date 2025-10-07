@@ -17,8 +17,9 @@ export const API_URLS: {
   GET_MESSAGES: string;
 } = {
   // BaseURL: "https://sci.5stardesigners.net:5029/dev/api/v1",
-  BaseURL: "https://vps-24bb0d6f.vps.ovh.ca:3006/production/api/v1",
-  LOGIN: "auth/login",
+  // BaseURL: "https://vps-24bb0d6f.vps.ovh.ca:3006/production/api/v1",
+  BaseURL: "https://api.swiftintervalcoach.com/production/api/v1",
+  LOGIN: "/auth/login",
   SIGNUP: "/auth/signup",
   LOGOUT: "/auth/logout",
   VERIFY_OTP: "/auth/verify-otp",

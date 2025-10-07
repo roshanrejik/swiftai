@@ -18,6 +18,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.swiftai.app",
+      "usesAppleSignIn": true,
       "infoPlist": {
         "NSAppTransportSecurity": {
           "NSAllowsArbitraryLoads": true
@@ -42,6 +43,13 @@
       "favicon": "./src/assets/img/favicon.png"
     },
     "plugins": [
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.1474332772-04vlnko7ju0o7h8od0m2haaij8bdivik",
+          "iosClientId": "1474332772-04vlnko7ju0o7h8od0m2haaij8bdivik.apps.googleusercontent.com",
+        }
+      ],
       [
         "expo-font",
         {

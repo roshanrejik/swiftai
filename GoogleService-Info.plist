@@ -3,34 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>515266230098-2g1p0422a945lhfm6kjbm7qhr9e1kpkv.apps.googleusercontent.com</string>
+	<string>1474332772-04vlnko7ju0o7h8od0m2haaij8bdivik.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.515266230098-2g1p0422a945lhfm6kjbm7qhr9e1kpkv</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>515266230098-3el9ksopd1pbv21ijln5mbr3kb675snn.apps.googleusercontent.com</string>
-	<key>API_KEY</key>
-	<string>AIzaSyDnknkk0q2SAFxccdWli7yjaO1LVrnlfKU</string>
-	<key>GCM_SENDER_ID</key>
-	<string>515266230098</string>
+	<string>com.googleusercontent.apps.1474332772-04vlnko7ju0o7h8od0m2haaij8bdivik</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.swiftAI</string>
-	<key>PROJECT_ID</key>
-	<string>swift-ai-2b7b3</string>
-	<key>STORAGE_BUCKET</key>
-	<string>swift-ai-2b7b3.firebasestorage.app</string>
-	<key>IS_ADS_ENABLED</key>
-	<false></false>
-	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
-	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
-	<key>IS_GCM_ENABLED</key>
-	<true></true>
-	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
-	<key>GOOGLE_APP_ID</key>
-	<string>1:515266230098:ios:c7511a3735990833bb2c8b</string>
+	<string>com.swiftai.app</string>
 </dict>
 </plist>
