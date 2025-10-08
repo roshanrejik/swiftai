@@ -4,7 +4,15 @@
     "slug": "swift-ai",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/img/Logo.png",
+    "icon": "./src/assets/img/App-Icon-1024x1024@1x.png",
+    "assets": [
+      "./src/assets/img/App-Icon-1024x1024@1x.png",
+      "./src/assets/img/favicon.png"
+    ],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "scheme": "swiftai",
     "userInterfaceStyle": "automatic",
     "entryPoint": "expo-router/entry",
@@ -32,7 +40,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./src/assets/img/adaptive-icon.png",
+        "foregroundImage": "./src/assets/img/Logo.png",
+        "backgroundImage": "./src/assets/img/logo-background.png",
         "backgroundColor": "#000000"
       },
       "package": "com.swiftai.app"
