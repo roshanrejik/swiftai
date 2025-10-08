@@ -34,9 +34,9 @@
   "submit": {
     "testflight": {
       "ios": {
-        "appleId": "app@oneteamus.com",
+        "appleId": "swift4life@myyahoo.com",
         "ascAppId": "6753214617",
-        "appleTeamId": "M287G3SHDY"
+        "appleTeamId": "M5H6Q328LX"
       }
     },
     "production": {}
